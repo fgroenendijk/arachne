@@ -1,0 +1,105 @@
+html {
+	min-height: 100%;
+	position: relative;
+}
+
+body {
+	color: #fff;
+	margin: 0 0 100px;
+	background: #f3f3f3;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+nav.navbar-inverse {
+        background-color: #1F2B33;
+}
+
+.nav.navbar-right {
+        margin-top: 19px;
+}
+
+span.editText {
+	display: block;
+	cursor: pointer;
+}
+
+span.editText textarea {
+	border: 0;
+	padding: 0;
+	width: 100%;
+	resize: none;
+	color: inherit;
+	display: block;
+	overflow: hidden;
+	font-size: inherit;
+	line-height: inherit;
+	font-family: inherit;
+	background-color: transparent;
+}
+
+.border {
+	border-radius: 5px;
+	margin-bottom: 10px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+.change {
+	width: 100%;
+	height: auto;
+	padding: 20px;
+	margin-top: 5px;
+	background: #1F2B33;
+}
+
+.change select {
+	width: 20%;
+	color: #fff;
+	border: none;
+	padding: 10px;
+	font-weight: bold;
+	background: #16a6b6;
+}
+
+.settings {
+	width: 100%;
+	clear: both;
+	color: #fff;
+	height: auto;
+	padding: 5px 0;
+	text-align: center;
+	background: #16a6b6;
+}
+
+.settings button,
+.settings input,
+.settings select,
+.settings textarea {
+	color: black;
+}
+
+img {
+	width: 99%;
+}
+
+div.settings div.change {
+	width: 52%;
+	text-align: left;
+	margin-left: 10%;
+}
+
+footer {
+	left: 0;
+	width: 100%;
+	min-height: 60px;
+	position: absolute;
+        color: #337ab7;
+	background: #1F2B33;
+}
+
+footer p {
+	padding: 20px;
+	font-size: 13px;
+	margin: 0 6% 0 0;
+	text-align: right;
+}

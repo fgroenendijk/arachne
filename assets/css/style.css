@@ -4,13 +4,13 @@ html {
 }
 
 body {
-	margin: 0 0 100px;
 	background: #f3f3f3;
 	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 
 main {
-	height: calc(100vh - 152px);
+	min-height: calc(100vh - 152px);
+	overflow: scroll;
 }
 
 nav.navbar-inverse {

@@ -9,6 +9,10 @@ body {
 	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 
+main {
+	height: calc(100vh - 152px);
+}
+
 nav.navbar-inverse {
         background-color: #1F2B33;
 }

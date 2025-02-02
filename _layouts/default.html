@@ -8,10 +8,10 @@
     <meta name="description" content="{{ page.description | default: site.description }}">
     <meta name="keywords" content="{{ page.keywords | default: site.keywords }}">
 
-    <link rel="icon" href="{{ site.github.url }}/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/{{ repository_name }}/favicon.ico" type="image/x-icon">
     <!-- Include CSS -->
-    <link rel="stylesheet" href="{{ site.github.url }}/assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="{{ site.github.url }}/assets/css/style.css">
+    <link rel="stylesheet" href="/{{ repository_name }}/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/{{ repository_name }}/assets/css/style.css">
 </head>
 
 <body>
@@ -48,8 +48,8 @@
     {% include footer.html %}
 
     <!-- Include JavaScript -->
-    <script src="{{ site.github.url }}/assets/js/jquery.min.js"></script>
-    <script src="{{ site.github.url }}/assets/js/bootstrap.min.js"></script>
+    <script src="/{{ repository_name }}/assets/js/jquery.min.js"></script>
+    <script src="/{{ repository_name }}/assets/js/bootstrap.min.js"></script>
 </body>
 
 </html>

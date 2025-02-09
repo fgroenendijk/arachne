@@ -13,6 +13,10 @@ main {
 	overflow: scroll;
 }
 
+p {
+	font-family: arial, helvetica, sans-serif;
+}
+
 nav.navbar-inverse {
         background-color: #1F2B33;
 }
